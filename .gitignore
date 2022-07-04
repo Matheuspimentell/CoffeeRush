@@ -2,6 +2,10 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
+
+# Ignorando a pasta com os arquivos fonte criados pelo Unity
+Coffee Rush/
+
 /[Ll]ibrary/
 /[Tt]emp/
 /[Oo]bj/
