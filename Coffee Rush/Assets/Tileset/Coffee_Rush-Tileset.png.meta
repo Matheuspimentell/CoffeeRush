@@ -134,24 +134,6 @@ TextureImporter:
   - first:
       213: 8470455394473711092
     second: Coffee_Rush-Tileset_43
-  - first:
-      213: 948773186111978650
-    second: Coffee_Rush-Tileset_44
-  - first:
-      213: -732318737081239245
-    second: Coffee_Rush-Tileset_45
-  - first:
-      213: 3199101249945997882
-    second: Coffee_Rush-Tileset_46
-  - first:
-      213: -5296812754652864248
-    second: Coffee_Rush-Tileset_47
-  - first:
-      213: 4133893627477732952
-    second: Coffee_Rush-Tileset_48
-  - first:
-      213: -1613064043860770555
-    second: Coffee_Rush-Tileset_49
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -196,7 +178,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 160
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -269,9 +251,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 480
-        width: 160
-        height: 160
+        y: 48
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -289,10 +271,10 @@ TextureImporter:
       name: Coffee_Rush-Tileset_1
       rect:
         serializedVersion: 2
-        x: 160
-        y: 480
-        width: 160
-        height: 160
+        x: 16
+        y: 48
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -310,10 +292,10 @@ TextureImporter:
       name: Coffee_Rush-Tileset_2
       rect:
         serializedVersion: 2
-        x: 320
-        y: 480
-        width: 160
-        height: 160
+        x: 32
+        y: 48
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -331,10 +313,10 @@ TextureImporter:
       name: Coffee_Rush-Tileset_3
       rect:
         serializedVersion: 2
-        x: 480
-        y: 480
-        width: 160
-        height: 160
+        x: 48
+        y: 48
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -352,10 +334,10 @@ TextureImporter:
       name: Coffee_Rush-Tileset_4
       rect:
         serializedVersion: 2
-        x: 640
-        y: 480
-        width: 160
-        height: 160
+        x: 64
+        y: 48
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -373,10 +355,10 @@ TextureImporter:
       name: Coffee_Rush-Tileset_5
       rect:
         serializedVersion: 2
-        x: 800
-        y: 480
-        width: 160
-        height: 160
+        x: 80
+        y: 48
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -394,10 +376,10 @@ TextureImporter:
       name: Coffee_Rush-Tileset_6
       rect:
         serializedVersion: 2
-        x: 960
-        y: 480
-        width: 160
-        height: 160
+        x: 96
+        y: 48
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -415,10 +397,10 @@ TextureImporter:
       name: Coffee_Rush-Tileset_7
       rect:
         serializedVersion: 2
-        x: 1120
-        y: 480
-        width: 160
-        height: 160
+        x: 112
+        y: 48
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -436,10 +418,10 @@ TextureImporter:
       name: Coffee_Rush-Tileset_8
       rect:
         serializedVersion: 2
-        x: 1280
-        y: 480
-        width: 160
-        height: 160
+        x: 128
+        y: 48
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -457,10 +439,10 @@ TextureImporter:
       name: Coffee_Rush-Tileset_9
       rect:
         serializedVersion: 2
-        x: 1440
-        y: 480
-        width: 160
-        height: 160
+        x: 144
+        y: 48
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -478,10 +460,10 @@ TextureImporter:
       name: Coffee_Rush-Tileset_10
       rect:
         serializedVersion: 2
-        x: 1600
-        y: 480
-        width: 160
-        height: 160
+        x: 0
+        y: 32
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -499,10 +481,10 @@ TextureImporter:
       name: Coffee_Rush-Tileset_11
       rect:
         serializedVersion: 2
-        x: 0
-        y: 320
-        width: 160
-        height: 160
+        x: 16
+        y: 32
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -520,10 +502,10 @@ TextureImporter:
       name: Coffee_Rush-Tileset_12
       rect:
         serializedVersion: 2
-        x: 160
-        y: 320
-        width: 160
-        height: 160
+        x: 32
+        y: 32
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -541,10 +523,10 @@ TextureImporter:
       name: Coffee_Rush-Tileset_13
       rect:
         serializedVersion: 2
-        x: 320
-        y: 320
-        width: 160
-        height: 160
+        x: 48
+        y: 32
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -562,10 +544,10 @@ TextureImporter:
       name: Coffee_Rush-Tileset_14
       rect:
         serializedVersion: 2
-        x: 480
-        y: 320
-        width: 160
-        height: 160
+        x: 64
+        y: 32
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -583,10 +565,10 @@ TextureImporter:
       name: Coffee_Rush-Tileset_15
       rect:
         serializedVersion: 2
-        x: 640
-        y: 320
-        width: 160
-        height: 160
+        x: 80
+        y: 32
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -604,10 +586,10 @@ TextureImporter:
       name: Coffee_Rush-Tileset_16
       rect:
         serializedVersion: 2
-        x: 800
-        y: 320
-        width: 160
-        height: 160
+        x: 96
+        y: 32
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -625,10 +607,10 @@ TextureImporter:
       name: Coffee_Rush-Tileset_17
       rect:
         serializedVersion: 2
-        x: 960
-        y: 320
-        width: 160
-        height: 160
+        x: 112
+        y: 32
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -646,10 +628,10 @@ TextureImporter:
       name: Coffee_Rush-Tileset_18
       rect:
         serializedVersion: 2
-        x: 1120
-        y: 320
-        width: 160
-        height: 160
+        x: 128
+        y: 32
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -667,10 +649,10 @@ TextureImporter:
       name: Coffee_Rush-Tileset_19
       rect:
         serializedVersion: 2
-        x: 1280
-        y: 320
-        width: 160
-        height: 160
+        x: 144
+        y: 32
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -688,10 +670,10 @@ TextureImporter:
       name: Coffee_Rush-Tileset_20
       rect:
         serializedVersion: 2
-        x: 1440
-        y: 320
-        width: 160
-        height: 160
+        x: 0
+        y: 16
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -709,10 +691,10 @@ TextureImporter:
       name: Coffee_Rush-Tileset_21
       rect:
         serializedVersion: 2
-        x: 1600
-        y: 320
-        width: 160
-        height: 160
+        x: 16
+        y: 16
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -730,10 +712,10 @@ TextureImporter:
       name: Coffee_Rush-Tileset_22
       rect:
         serializedVersion: 2
-        x: 1760
-        y: 320
-        width: 160
-        height: 160
+        x: 32
+        y: 16
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -751,10 +733,10 @@ TextureImporter:
       name: Coffee_Rush-Tileset_23
       rect:
         serializedVersion: 2
-        x: 1920
-        y: 320
-        width: 160
-        height: 160
+        x: 48
+        y: 16
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -772,10 +754,10 @@ TextureImporter:
       name: Coffee_Rush-Tileset_24
       rect:
         serializedVersion: 2
-        x: 0
-        y: 160
-        width: 160
-        height: 160
+        x: 64
+        y: 16
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -793,10 +775,10 @@ TextureImporter:
       name: Coffee_Rush-Tileset_25
       rect:
         serializedVersion: 2
-        x: 160
-        y: 160
-        width: 160
-        height: 160
+        x: 80
+        y: 16
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -814,10 +796,10 @@ TextureImporter:
       name: Coffee_Rush-Tileset_26
       rect:
         serializedVersion: 2
-        x: 320
-        y: 160
-        width: 160
-        height: 160
+        x: 96
+        y: 16
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -835,10 +817,10 @@ TextureImporter:
       name: Coffee_Rush-Tileset_27
       rect:
         serializedVersion: 2
-        x: 480
-        y: 160
-        width: 160
-        height: 160
+        x: 112
+        y: 16
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -856,10 +838,10 @@ TextureImporter:
       name: Coffee_Rush-Tileset_28
       rect:
         serializedVersion: 2
-        x: 640
-        y: 160
-        width: 160
-        height: 160
+        x: 144
+        y: 16
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -877,10 +859,10 @@ TextureImporter:
       name: Coffee_Rush-Tileset_29
       rect:
         serializedVersion: 2
-        x: 800
-        y: 160
-        width: 160
-        height: 160
+        x: 160
+        y: 16
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -898,10 +880,10 @@ TextureImporter:
       name: Coffee_Rush-Tileset_30
       rect:
         serializedVersion: 2
-        x: 960
-        y: 160
-        width: 160
-        height: 160
+        x: 176
+        y: 16
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -919,10 +901,10 @@ TextureImporter:
       name: Coffee_Rush-Tileset_31
       rect:
         serializedVersion: 2
-        x: 1120
-        y: 160
-        width: 160
-        height: 160
+        x: 192
+        y: 16
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -940,10 +922,10 @@ TextureImporter:
       name: Coffee_Rush-Tileset_32
       rect:
         serializedVersion: 2
-        x: 1280
-        y: 160
-        width: 160
-        height: 160
+        x: 0
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -961,10 +943,10 @@ TextureImporter:
       name: Coffee_Rush-Tileset_33
       rect:
         serializedVersion: 2
-        x: 1440
-        y: 160
-        width: 160
-        height: 160
+        x: 16
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -982,10 +964,10 @@ TextureImporter:
       name: Coffee_Rush-Tileset_34
       rect:
         serializedVersion: 2
-        x: 1600
-        y: 160
-        width: 160
-        height: 160
+        x: 32
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1003,10 +985,10 @@ TextureImporter:
       name: Coffee_Rush-Tileset_35
       rect:
         serializedVersion: 2
-        x: 1760
-        y: 160
-        width: 160
-        height: 160
+        x: 48
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1024,10 +1006,10 @@ TextureImporter:
       name: Coffee_Rush-Tileset_36
       rect:
         serializedVersion: 2
-        x: 1920
-        y: 160
-        width: 160
-        height: 160
+        x: 64
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1045,10 +1027,10 @@ TextureImporter:
       name: Coffee_Rush-Tileset_37
       rect:
         serializedVersion: 2
-        x: 0
+        x: 80
         y: 0
-        width: 160
-        height: 160
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1066,10 +1048,10 @@ TextureImporter:
       name: Coffee_Rush-Tileset_38
       rect:
         serializedVersion: 2
-        x: 160
+        x: 96
         y: 0
-        width: 160
-        height: 160
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1087,10 +1069,10 @@ TextureImporter:
       name: Coffee_Rush-Tileset_39
       rect:
         serializedVersion: 2
-        x: 320
+        x: 112
         y: 0
-        width: 160
-        height: 160
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1108,10 +1090,10 @@ TextureImporter:
       name: Coffee_Rush-Tileset_40
       rect:
         serializedVersion: 2
-        x: 480
+        x: 128
         y: 0
-        width: 160
-        height: 160
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1129,10 +1111,10 @@ TextureImporter:
       name: Coffee_Rush-Tileset_41
       rect:
         serializedVersion: 2
-        x: 640
+        x: 144
         y: 0
-        width: 160
-        height: 160
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1150,10 +1132,10 @@ TextureImporter:
       name: Coffee_Rush-Tileset_42
       rect:
         serializedVersion: 2
-        x: 800
+        x: 160
         y: 0
-        width: 160
-        height: 160
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1171,10 +1153,10 @@ TextureImporter:
       name: Coffee_Rush-Tileset_43
       rect:
         serializedVersion: 2
-        x: 960
+        x: 176
         y: 0
-        width: 160
-        height: 160
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1184,132 +1166,6 @@ TextureImporter:
       bones: []
       spriteID: 4f595698d4a1d8570800000000000000
       internalID: 8470455394473711092
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Coffee_Rush-Tileset_44
-      rect:
-        serializedVersion: 2
-        x: 1120
-        y: 0
-        width: 160
-        height: 160
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a9cbe9a9f28ba2d00800000000000000
-      internalID: 948773186111978650
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Coffee_Rush-Tileset_45
-      rect:
-        serializedVersion: 2
-        x: 1280
-        y: 0
-        width: 160
-        height: 160
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 339f8e51df746d5f0800000000000000
-      internalID: -732318737081239245
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Coffee_Rush-Tileset_46
-      rect:
-        serializedVersion: 2
-        x: 1440
-        y: 0
-        width: 160
-        height: 160
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a321a8323ad756c20800000000000000
-      internalID: 3199101249945997882
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Coffee_Rush-Tileset_47
-      rect:
-        serializedVersion: 2
-        x: 1600
-        y: 0
-        width: 160
-        height: 160
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 80168250dd0fd76b0800000000000000
-      internalID: -5296812754652864248
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Coffee_Rush-Tileset_48
-      rect:
-        serializedVersion: 2
-        x: 1760
-        y: 0
-        width: 160
-        height: 160
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 85eaf051a5a8e5930800000000000000
-      internalID: 4133893627477732952
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Coffee_Rush-Tileset_49
-      rect:
-        serializedVersion: 2
-        x: 1920
-        y: 0
-        width: 160
-        height: 160
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 50149b96cce3d99e0800000000000000
-      internalID: -1613064043860770555
       vertices: []
       indices: 
       edges: []
