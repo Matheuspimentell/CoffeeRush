@@ -156,6 +156,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -1180,6 +1181,51 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Coffee_Rush-Tileset_20: -4331585934578479599
+      Coffee_Rush-Tileset_32: 1895966332496357927
+      Coffee_Rush-Tileset_4: 4737268320043579526
+      Coffee_Rush-Tileset_37: 8965389030096776460
+      Coffee_Rush-Tileset_18: 1992814403235053047
+      Coffee_Rush-Tileset_2: 902498597832224787
+      Coffee_Rush-Tileset_7: -2546660156026936214
+      Coffee_Rush-Tileset_16: 7260329413222594063
+      Coffee_Rush-Tileset_36: 357051843104894380
+      Coffee_Rush-Tileset_19: -8710843659995420928
+      Coffee_Rush-Tileset_8: -2984531166602630334
+      Coffee_Rush-Tileset_21: 6329940372880832699
+      Coffee_Rush-Tileset_25: -5388378042372097982
+      Coffee_Rush-Tileset_6: 6656512591674438911
+      Coffee_Rush-Tileset_5: 1849244881005072831
+      Coffee_Rush-Tileset_41: 4715211899299709038
+      Coffee_Rush-Tileset_14: 2456124611739501904
+      Coffee_Rush-Tileset_10: -3889189860680864385
+      Coffee_Rush-Tileset_30: -7378817011997244707
+      Coffee_Rush-Tileset_43: 8470455394473711092
+      Coffee_Rush-Tileset_28: -3936885786794977270
+      Coffee_Rush-Tileset_27: 7668481922933710445
+      Coffee_Rush-Tileset_11: -96054113888462611
+      Coffee_Rush-Tileset_40: 2481201476682239528
+      Coffee_Rush-Tileset_15: -2865422504371037040
+      Coffee_Rush-Tileset_38: -894526487792358854
+      Coffee_Rush-Tileset_9: -881594687849833987
+      Coffee_Rush-Tileset_42: -4455919374448243634
+      Coffee_Rush-Tileset_26: 6630797839609905107
+      Coffee_Rush-Tileset_33: -4434131752805098032
+      Coffee_Rush-Tileset_17: -4213325957899736589
+      Coffee_Rush-Tileset_34: 6597186413284888631
+      Coffee_Rush-Tileset_12: -4264958368381678954
+      Coffee_Rush-Tileset_24: -4857339602313114858
+      Coffee_Rush-Tileset_35: 6831627971696210795
+      Coffee_Rush-Tileset_22: -6044058076139258737
+      Coffee_Rush-Tileset_1: -2001023566817476480
+      Coffee_Rush-Tileset_0: -688934719931729956
+      Coffee_Rush-Tileset_3: -8534661851565262529
+      Coffee_Rush-Tileset_13: -4746147771859876355
+      Coffee_Rush-Tileset_29: -55290070670880383
+      Coffee_Rush-Tileset_31: 8654872683641878096
+      Coffee_Rush-Tileset_23: -8648127275107903053
+      Coffee_Rush-Tileset_39: -6804603664284259019
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
