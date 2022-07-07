@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: Coffee_Rush-Tileset_26
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 6630797839609905107, guid: 1e00daa2da23f5f449df78fa8629c2a2, type: 3}
+  m_Sprite: {fileID: 6630797839609905107, guid: e19d65aca1b37ee46a620e6cc2c18f79, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
