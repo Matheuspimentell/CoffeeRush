@@ -13,7 +13,7 @@ public class Player : MonoBehaviour
         //Every frame, get input from the player
         h_movement = Input.GetAxisRaw("Horizontal") * speed;
 
-        //If the player pressed the Jump Button
+        //If the player pressed the Jump Button..
         if (Input.GetButtonDown("Jump"))
         {
             isJumping = true;
