@@ -166,6 +166,7 @@ GameObject:
   - component: {fileID: 498471885}
   - component: {fileID: 498471884}
   - component: {fileID: 498471886}
+  - component: {fileID: 498471887}
   m_Layer: 0
   m_Name: Flag
   m_TagString: Untagged
@@ -333,6 +334,19 @@ TilemapCollider2D:
   m_Offset: {x: 0, y: 0}
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0.00001
+--- !u!114 &498471887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 498471882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3778b039bb673fc419fed477518eb51f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1035749964}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -2020,13 +2034,12 @@ GameObject:
   m_Component:
   - component: {fileID: 1035749960}
   - component: {fileID: 1035749959}
-  - component: {fileID: 1035749967}
   - component: {fileID: 1035749966}
   - component: {fileID: 1035749962}
   - component: {fileID: 1035749965}
   - component: {fileID: 1035749964}
   m_Layer: 0
-  m_Name: player_character
+  m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2070,9 +2083,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: -516848377
+  m_SortingLayer: 1
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 453cba68bd5b9a347909fccc36fc7f32, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2136,6 +2149,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controller: {fileID: 1035749965}
   speed: 65
+  coffeeBeans: 0
 --- !u!114 &1035749965
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2164,8 +2178,8 @@ MonoBehaviour:
   OnCrouchEvent:
     m_PersistentCalls:
       m_Calls: []
---- !u!58 &1035749966
-CircleCollider2D:
+--- !u!70 &1035749966
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -2177,35 +2191,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.2}
-  serializedVersion: 2
-  m_Radius: 0.58
---- !u!61 &1035749967
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1035749958}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.33}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.6, y: 1.6}
-    newSize: {x: 1.6, y: 1.6}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.16, y: 0.92}
-  m_EdgeRadius: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 1.2, y: 1.6}
+  m_Direction: 0
 --- !u!1 &1054824869
 GameObject:
   m_ObjectHideFlags: 0
@@ -2788,6 +2776,7 @@ GameObject:
   - component: {fileID: 1635523537}
   - component: {fileID: 1635523536}
   - component: {fileID: 1635523535}
+  - component: {fileID: 1635523538}
   m_Layer: 0
   m_Name: Coffee Beans
   m_TagString: Untagged
@@ -2927,7 +2916,7 @@ Tilemap:
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Origin: {x: -6, y: 0, z: 0}
-  m_Size: {x: 6, y: 5, z: 1}
+  m_Size: {x: 6, y: 6, z: 1}
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
   m_TileOrientation: 0
   m_TileOrientationMatrix:
@@ -2947,6 +2936,19 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!114 &1635523538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1635523533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63226f64d7ecb1a4ba4ebb95ad88658a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1035749964}
 --- !u!1 &1996439565
 GameObject:
   m_ObjectHideFlags: 0

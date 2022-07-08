@@ -1,11 +1,12 @@
 using UnityEngine;
 
-public class PlayerMovement : MonoBehaviour
+public class Player : MonoBehaviour
 {
     public CharacterController2D controller; //Reference to the character controller
     private float h_movement = 0f; //Variable to keep track of the horizontal movement
     private bool isJumping = false; //Variable to keep track if a player is jumping
     public float speed = 30f; //Speed of the player
+    public int coffeeBeans = 0; //Amount of Coffee Beans that the player has caught
     
     void Update()
     {
