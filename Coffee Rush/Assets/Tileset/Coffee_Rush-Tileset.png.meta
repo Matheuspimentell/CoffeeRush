@@ -774,7 +774,15 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: 2, y: -5}
+        - {x: -4, y: -5}
+        - {x: -4, y: 1}
+        - {x: -3, y: 3}
+        - {x: 0, y: 5}
+        - {x: 6, y: 5}
+        - {x: 6, y: -1}
+        - {x: 4, y: -4}
       tessellationDetail: 0
       bones: []
       spriteID: 3b993d2201eabf780800000000000000
@@ -1054,7 +1062,11 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -6, y: -8}
+        - {x: -6, y: 6}
+        - {x: 5, y: 6}
+        - {x: 5, y: -8}
       tessellationDetail: 0
       bones: []
       spriteID: b63339ad171dece50800000000000000
@@ -1299,11 +1311,11 @@ TextureImporter:
       Coffee_Rush-Tileset_35: 6831627971696210795
       Coffee_Rush-Tileset_22: -6044058076139258737
       Coffee_Rush-Tileset_1: -2001023566817476480
-      Coffee_Rush-Tileset_13: -4746147771859876355
-      Coffee_Rush-Tileset_31: 8654872683641878096
       Coffee_Rush-Tileset_0: -688934719931729956
-      Coffee_Rush-Tileset_29: -55290070670880383
       Coffee_Rush-Tileset_3: -8534661851565262529
+      Coffee_Rush-Tileset_13: -4746147771859876355
+      Coffee_Rush-Tileset_29: -55290070670880383
+      Coffee_Rush-Tileset_31: 8654872683641878096
       Coffee_Rush-Tileset_23: -8648127275107903053
       Coffee_Rush-Tileset_39: -6804603664284259019
   spritePackingTag: 
