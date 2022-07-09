@@ -2965,7 +2965,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e01223abb2c6c924fbd2b323aaaa5090, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sounds: []
+  sounds:
+  - name: coffeePikcup
+    clip: {fileID: 8300000, guid: 6317563058611c14aae62cf29d23b56f, type: 3}
+    source: {fileID: 0}
+    volume: 0.8
+    pitch: 1
 --- !u!4 &1642152977
 Transform:
   m_ObjectHideFlags: 0

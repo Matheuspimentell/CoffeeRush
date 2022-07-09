@@ -17,15 +17,16 @@ public class PlayerCollisions : MonoBehaviour
 		switch (collision.name)
 		{
 			case "Spikes":
+				manager.Play("death");
 				Destroy(player);
-				Debug.Log("The player has fallen on spikes");
 				break;
 			case "Coffee Beans":
 				p.coffeeBeans++;
-				Debug.Log(p.coffeeBeans);
+				manager.Play("coffeePickup");
 				Destroy(collision.gameObject); //Destroys the coffee bean game object
 				break;
 			case "Flag":
+				manager.Play("passedLevel");
 				Debug.Log("The player has reached the flag!");
 				break;
 			default:

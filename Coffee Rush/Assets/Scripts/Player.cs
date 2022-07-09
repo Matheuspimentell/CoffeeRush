@@ -6,11 +6,12 @@ public class Player : MonoBehaviour
 	private float h_movement = 0f; //Variable to keep track of the horizontal movement
 	private bool isJumping = false; //Variable to keep track if a player is jumping
 	public float speed = 30f; //Speed of the player
+	public AudioManager manager;
 
-    [HideInInspector]
+	[HideInInspector]
 	public int coffeeBeans = 0; //Amount of Coffee Beans that the player has caught
 
-    private void Update()
+	private void Update()
 	{
 		//Every frame, get input from the player
 		h_movement = Input.GetAxisRaw("Horizontal") * speed;
@@ -18,6 +19,7 @@ public class Player : MonoBehaviour
 		//If the player pressed the Jump Button..
 		if (Input.GetButtonDown("Jump"))
 		{
+			manager.Play("jump");
 			isJumping = true;
 		}
 	}
