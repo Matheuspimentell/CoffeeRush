@@ -166,7 +166,6 @@ GameObject:
   - component: {fileID: 498471885}
   - component: {fileID: 498471884}
   - component: {fileID: 498471886}
-  - component: {fileID: 498471887}
   m_Layer: 0
   m_Name: Flag
   m_TagString: Untagged
@@ -334,19 +333,6 @@ TilemapCollider2D:
   m_Offset: {x: 0, y: 0}
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0.00001
---- !u!114 &498471887
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 498471882}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3778b039bb673fc419fed477518eb51f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 1035749964}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -2038,6 +2024,7 @@ GameObject:
   - component: {fileID: 1035749962}
   - component: {fileID: 1035749965}
   - component: {fileID: 1035749964}
+  - component: {fileID: 1035749967}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -2194,6 +2181,20 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 1.2, y: 1.6}
   m_Direction: 0
+--- !u!114 &1035749967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1035749958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4a1e6eb145bf784ab015cc18cfbcffc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  manager: {fileID: 1642152976}
+  player: {fileID: 1035749958}
 --- !u!1 &1054824869
 GameObject:
   m_ObjectHideFlags: 0
@@ -2591,7 +2592,6 @@ GameObject:
   - component: {fileID: 1231822349}
   - component: {fileID: 1231822348}
   - component: {fileID: 1231822347}
-  - component: {fileID: 1231822350}
   m_Layer: 0
   m_Name: Spikes
   m_TagString: Untagged
@@ -2765,18 +2765,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!114 &1231822350
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1231822345}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a3cf464eb4a758b4cb57f1792a3cc0c6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1635523533
 GameObject:
   m_ObjectHideFlags: 0
@@ -2789,7 +2777,6 @@ GameObject:
   - component: {fileID: 1635523537}
   - component: {fileID: 1635523536}
   - component: {fileID: 1635523535}
-  - component: {fileID: 1635523538}
   m_Layer: 0
   m_Name: Coffee Beans
   m_TagString: Untagged
@@ -2949,19 +2936,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!114 &1635523538
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1635523533}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 63226f64d7ecb1a4ba4ebb95ad88658a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 1035749964}
 --- !u!1 &1642152975
 GameObject:
   m_ObjectHideFlags: 0
@@ -2991,11 +2965,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e01223abb2c6c924fbd2b323aaaa5090, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sounds:
-  - name: Coffee Pickup
-    clip: {fileID: 0}
-    volume: 0
-    pitch: 0
+  sounds: []
 --- !u!4 &1642152977
 Transform:
   m_ObjectHideFlags: 0

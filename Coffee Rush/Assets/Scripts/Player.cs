@@ -6,9 +6,11 @@ public class Player : MonoBehaviour
 	private float h_movement = 0f; //Variable to keep track of the horizontal movement
 	private bool isJumping = false; //Variable to keep track if a player is jumping
 	public float speed = 30f; //Speed of the player
+
+    [HideInInspector]
 	public int coffeeBeans = 0; //Amount of Coffee Beans that the player has caught
-	
-	void Update()
+
+    private void Update()
 	{
 		//Every frame, get input from the player
 		h_movement = Input.GetAxisRaw("Horizontal") * speed;

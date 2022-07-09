@@ -16,10 +16,6 @@ public class PlatformBehaviour : MonoBehaviour
 
 	void FixedUpdate()
 	{
-
-		Debug.Log("Rotational offset: " + effector.rotationalOffset);
-		Debug.Log("revert timer: " + revertTimer);
-		
 		//If the player presses a key to get down from the platform...
 		if (Input.GetKeyDown("down") || Input.GetKeyDown("s"))
 		{
