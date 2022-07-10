@@ -29,6 +29,10 @@ public class PlayerCollisions : MonoBehaviour
 				manager.Play("passedLevel");
 				Debug.Log("The player has reached the flag!");
 				break;
+			case "Water":
+                manager.Play("death");
+                Destroy(player);
+				break;
 			default:
 				Debug.Log("Unidentified Object!!");
 				break;
