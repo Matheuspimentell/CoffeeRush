@@ -23,16 +23,18 @@ public class PlatformBehaviour : MonoBehaviour
 			hasFallen = true;
 		}
 
+		//If the player has fallen...
 		if (hasFallen)
 		{
-			revertTimer -= Time.fixedDeltaTime;
+			revertTimer -= Time.fixedDeltaTime; //Start decreasing the timer
 		}
 
+		//Caso o tempo chegue a zero...
 		if(revertTimer <= 0)
         {
-			hasFallen = false;
-			revertTimer = tmp;
-			effector.rotationalOffset = 0.0f;
+			hasFallen = false;//Report that the player hasn't fallen
+			revertTimer = tmp; //Reset timer
+			effector.rotationalOffset = 0.0f; //Revert the rotational offset timer
         }
 	}
 }
