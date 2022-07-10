@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerCollisions : MonoBehaviour
 {
@@ -17,23 +18,38 @@ public class PlayerCollisions : MonoBehaviour
 		switch (collision.name)
 		{
 			case "Spikes":
+				
 				manager.Play("death");
 				Destroy(player);
+				SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 				break;
+
 			case "Coffee Beans":
+				
 				p.coffeeBeans++;
 				manager.Play("coffeePickup");
-				Destroy(collision.gameObject); //Destroys the coffee bean game object
+				Destroy(collision.gameObject);
 				break;
+
 			case "Flag":
 				manager.Play("passedLevel");
 				Debug.Log("The player has reached the flag!");
+				if(p.coffeeBeans >= 1)
+                {
+					p.coffeeBeans = 0;
+					SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+                }
 				break;
+
 			case "Water":
-                manager.Play("death");
+                
+				manager.Play("death");
                 Destroy(player);
+				SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 				break;
+
 			default:
+				
 				Debug.Log("Unidentified Object!!");
 				break;
 		}

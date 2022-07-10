@@ -1362,6 +1362,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   manager: {fileID: 177099710}
   player: {fileID: 1235914436}
+  loader: {fileID: 0}
 --- !u!114 &1235914438
 MonoBehaviour:
   m_ObjectHideFlags: 0

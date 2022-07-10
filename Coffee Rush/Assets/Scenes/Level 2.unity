@@ -2196,6 +2196,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   manager: {fileID: 1642152976}
   player: {fileID: 1035749958}
+  loader: {fileID: 0}
 --- !u!1 &1054824869
 GameObject:
   m_ObjectHideFlags: 0
